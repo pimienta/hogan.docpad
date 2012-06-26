@@ -12,7 +12,7 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://docpad.github.com/githubpage-hoganjs.docpad/out/"
 
 			# The default title of our website
 			title: "Your GitHub Project"
