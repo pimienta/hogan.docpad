@@ -1,0 +1,77 @@
+---
+layout: 'primary'
+---
+
+<!--  Layout 1  -->
+<div class="five columns">
+	<h4>Getting started</h4>
+	<p>
+		Hogan.js is a 2.5k JS templating engine developed at Twitter. Use it as a part of your asset packager to compile templates ahead of time or include it in your browser to handle dynamic templates.
+	</p>
+	<p>
+		If you're developing with Node.js, just use NPM to add the Hogan package.
+	</p>
+	<pre><code>$ npm install hogan.js</code></pre>
+	<p>
+		Alternatively, drop hogan.js in your browser by adding the following script.
+	</p>
+	<pre><code>&lt;script src="http://twitter.github.com/hogan.js/builds/2.0.0/hogan-2.0.0.js"&gt;&lt;/script&gt;</code></pre>
+
+</div>
+<div class="ten columns offset-by-one">
+	<script src="https://gist.github.com/1484613.js"> </script>
+</div>
+<div class="hogan-divider">
+	<div class="hogan-icon"></div>
+</div>
+
+<!--  Layout 2  -->
+<div class="five columns">
+	<h4>Templates</h4>
+	<p>
+		Hogan.js was developed against the mustache test suite, so everything that holds true for templates as specified <a href="//mustache.github.com/mustache.5.html">here</a>, is also the case for hogan.js.
+	</p>
+	<p>
+		That means you get variables, sections, lambdas, partials, filters, and everything else you've come to expect from mustache templating - only much, much faster.
+	</p>
+</div>
+<div class="ten columns offset-by-one">
+	<script src="https://gist.github.com/1484342.js"></script>
+</div>
+<div class="hogan-divider">
+	<div class="hogan-icon"></div>
+</div>
+
+<!--  Layout 3  -->
+<div class="five columns">
+	<h4>Compiling</h4>
+	<p>
+		Use <code>hogan.compile()</code> to precompile your templates into vanilla JS.
+	</p>
+	<p>
+		It's best to serve your templates precompiled whenever you can (rather than the raw templates), as parsing is the most time consuming operation.
+	</p>
+	<p>
+	</p>
+</div>
+<div class="ten columns offset-by-one">
+	<script src="https://gist.github.com/1484513.js"> </script>
+</div>
+<div class="hogan-divider">
+	<div class="hogan-icon"></div>
+</div>
+
+<!--  Layout 4  -->
+<div class="five columns">
+	<h4 id='rendering'>Rendering</h4>
+	<p>
+		Once compiled, call the <code>render()</code> method with a context and optional partials object.
+	</p>
+	<p>
+		If supplying partials, you can compile them ahead of time, or pass string templates.</p>
+	<p>
+	</p>
+</div>
+<div class="ten columns offset-by-one">
+	<script src="https://gist.github.com/1575714.js"> </script>
+</div>

@@ -1,0 +1,24 @@
+---
+layout: 'default'
+---
+
+<!-- Primary Page Layout
+================================================== -->
+
+<header class="hogan-hero">
+	<div class="stripes"></div>
+	<div class="noise"></div>
+	<div class="container">
+		<h1><%- @site.title %></h1>
+		<h3><%- @site.tagline %></h3>
+		<a href="<%= @site.githubLink %>" class="download button">View on Github</a>
+	</div>
+</header>
+
+<div class="primary container">
+
+	<%- @content %>
+
+	<%- @partial('footer.html.eco') %>
+
+</div><!-- container -->
