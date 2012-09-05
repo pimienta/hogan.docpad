@@ -1,9 +1,9 @@
 {
-	"name": "githubpage-hoganjs.docpad",
+	"name": "hogan.docpad",
 	"version": "0.1.0",
 	"private": true,
 	"description": "A DocPad Skeleton based off Twitter's Hogan.js GitHub Page",
-	"homepage": "https://github.com/docpad/githubpage-hoganjs.docpad",
+	"homepage": "https://github.com/docpad/hogan.docpad",
 	"keywords": [
 		"docpad-skeleton",
 		"docpad",
@@ -20,23 +20,28 @@
 		"Benjamin Lupton <b@lupton.cc> (http://balupton.com)"
 	],
 	"bugs": {
-		"url": "https://github.com/docpad/githubpage-hoganjs.docpad/issues"
+		"url": "https://github.com/docpad/hogan.docpad/issues"
 	},
 	"repository" : {
 		"type" : "git",
-		"url" : "http://github.com/docpad/githubpage-hoganjs.docpad.git"
+		"url" : "http://github.com/docpad/hogan.docpad.git"
 	},
 	"engines" : {
-		"node": ">=0.4.0"
+		"node": "0.8.x",
+		"npm": "1.1.x"
 	},
 	"dependencies": {
-		"docpad": "6.0.x",
-		"docpad-plugin-coffee": "2.0.x",
-		"docpad-plugin-eco": "2.0.x",
-		"docpad-plugin-markdown": "2.0.x",
-		"docpad-plugin-partials": "2.0.x",
-		"docpad-plugin-stylus": "2.0.x",
-		"docpad-plugin-text": "2.0.x"
+		"docpad": "6.x",
+		"docpad-plugin-cleanurls": "2.x",
+		"docpad-plugin-coffee": "2.x",
+		"docpad-plugin-eco": "2.x",
+		"docpad-plugin-marked": "2.x",
+		"docpad-plugin-partials": "2.x",
+		"docpad-plugin-stylus": "2.x",
+		"docpad-plugin-text": "2.x"
 	},
-	"main": "./server.js"
+	"devDependencies": {
+		"docpad-plugin-livereload": "2.x"
+	},
+	"main": "node_modules/docpad/bin/docpad-server"
 }
